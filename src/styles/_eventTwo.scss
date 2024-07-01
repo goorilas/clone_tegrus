@@ -1,0 +1,15 @@
+@use 'variaveis';
+
+.eventTwo {
+    font-family: variaveis.$fontPrincipal;
+    background-color: variaveis.$colorBackgroudTwo;
+    color: variaveis.$fontColor;
+
+    &__text {
+        text-align: center;
+
+        &__col {
+            align-items: start;
+        }
+    }
+}

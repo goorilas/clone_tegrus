@@ -1,0 +1,47 @@
+@use 'variaveis';
+
+.event {
+    background-color: variaveis.$colorBackgroud;
+
+    @media (max-width: 640px) {
+        display: block;
+    }
+
+    &__text {
+        color: variaveis.$fontColor;
+        margin: 24px;
+        font-family: variaveis.$fontPrincipal;
+
+        &__size {
+            font-size: 50px;
+
+            @media (max-width: 640px) {
+                font-size: 20px;
+            }
+        }
+    }
+
+    &__secondText {
+        color: variaveis.$fontColor;
+        font-family: variaveis.$fontPrincipal;
+    }
+
+    &__img {
+        display: flex;
+        margin: auto;
+    }
+}
+
+.event__img {
+    @media (max-width: 640px) {
+        display: none;
+    }
+}
+
+.event__text {
+    @media (max-width: 640px) {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+}

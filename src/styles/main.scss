@@ -1,0 +1,32 @@
+@use 'movie';
+@use 'event';
+@use 'variaveis';
+@use 'eventTwo';
+@use 'cards';
+@use 'footer';
+@use 'navbar';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    list-style: none;
+    overflow-x: hidden;
+}
+
+@media (max-width: 640px) {
+
+    .video-container {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+    }
+
+    .navbar-toggler{
+        margin-right: 16px;
+    }
+}
+

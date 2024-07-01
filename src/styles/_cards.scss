@@ -1,0 +1,41 @@
+@use 'variaveis';
+
+.cards {
+    font-family: variaveis.$fontPrincipal;
+    color: variaveis.$fontColor;
+
+    &__card {
+        background-color: variaveis.$colorBackgroud;
+        border-radius: 8px;
+        border: 1px solid black;
+
+        &__img {
+            width: 250px;
+            height: 250px;
+            background-image: cover;
+            display: flex;
+            margin: auto;
+        }
+    
+        &__text {
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+
+    .cards {
+        margin: 0;
+        padding: 0;
+
+        &__card {
+            margin-top: 8px;
+        }
+    }
+
+    .cards__card__text{
+        font-size: 12px;
+        margin-top: 8px;
+    } 
+}

@@ -1,0 +1,23 @@
+@use 'variaveis';
+
+.footer {
+    background-color: variaveis.$colorBackgroudTree;
+    font-family: variaveis.$fontPrincipal;
+    color: variaveis.$fontColor
+}
+
+.footerTwo {
+    background-color: variaveis.$colorBackgroudTree;
+    font-family: variaveis.$fontPrincipal;
+    color: variaveis.$fontColor;
+    padding: 8px;
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    .btn {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+}
