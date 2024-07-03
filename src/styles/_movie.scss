@@ -19,12 +19,16 @@
 
 .links {
     width: 100%;
-    margin-top: 670px;
+    margin-top: 660px;
     font-style: none;
 
     @media (max-width: 640px) {
         margin-top: 450px;
         display: block;
+    }
+
+    @media (max-width: 914px) {
+        margin-top: 520px;
     }
 }
 
