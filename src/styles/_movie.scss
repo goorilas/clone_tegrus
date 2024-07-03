@@ -1,30 +1,31 @@
 
+
 .video-container {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 80%;
+    height: 90%;
     overflow: hidden;
 }
 .video-container video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
     width: 100%;
-    height: 100%;
+    height: 90%;
     object-fit: cover;
-    transform: translate(-50%, -50%);
+}
+
+.embed-responsive-item {
+    margin-top: 56px;
 }
 
 .links {
     width: 100%;
-    margin-top: 660px;
-    font-style: none;
+    margin-top: 620px;
 
     @media (max-width: 640px) {
-        margin-top: 400px;
         display: block;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 }
 
@@ -37,5 +38,9 @@
 
     &:hover {
         background-color: black;
+    }
+
+    @media (max-width: 640px) {
+        margin-top: 24px;
     }
 }

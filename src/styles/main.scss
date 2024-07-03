@@ -21,8 +21,15 @@ body {
 
     .video-container {
         width: 100%;
-        height: 50%;
-        position: absolute;
+        height: 60%;
+        position: relative;
+        margin-top: -55px;
+        display: block;
+        background-size: cover;
+    }
+
+    .video__bloco {
+        padding: 0;
     }
 }
 
